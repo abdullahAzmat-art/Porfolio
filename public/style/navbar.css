@@ -1,0 +1,149 @@
+.addthecolro{
+    /* From https://css.glass */
+/* From https://css.glass */
+background: rgba(244, 244, 248, 0.25);
+border-radius: 30px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5.8px);
+-webkit-backdrop-filter: blur(5.8px);
+border: 1px solid rgba(244, 244, 248, 0.31);
+
+position: relative;
+top: 20px;
+margin-bottom: 20px;
+}
+.navrlogo{
+
+    font-size: 27px;
+    font-weight: bolder;
+    color:white !important;
+    margin-left: 10px;
+    text-decoration: none;
+    
+    /* padding: 5px; */
+    /* background: linear-gradient(to right, #ff0000, #ffff00); */
+    
+    
+}
+.navrlogo :hover{
+background-color: white !important;
+}
+.tagskoset{
+    font-size: 20px;
+    color: white !important;
+    font-weight: 700;
+    text-transform: capitalize;
+    /* text-shadow: 1ch; */
+}
+.ionskoset{
+    color: white;
+    font-size: 30px;
+}
+
+.caresalokoset{
+    /* display: flex ;
+    justify-content: center;
+    align-items: center; */
+    text-align: center;
+    width: 100%;
+
+    height: 500px;
+    /* margin: auto; */
+    /* border: 1px solid beige; */
+    padding: auto;
+    
+}
+.innerconta{
+    
+    position: relative;
+    top: 190px;
+}
+.careosethead{
+    font-size: 50px;
+    color: white;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+@media screen and (max-width:500px) {
+    .innerconta{
+    
+        position: relative;
+        top: 60px;
+    }
+}
+.pharaset{
+
+    font-size: 20px;
+    color: white;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.projectheader{
+    font-size: 40px;
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    text-align: center;
+    /* border-bottom: 1px solid white; */
+    /* border-width: 20px; */
+}
+.project-card {
+    transition: transform 0.3s ease-in-out;
+    height: 100%;
+}
+.project-card:hover {
+    transform: translateY(-5px);
+}
+.project-image {
+    height: 200px;
+    object-fit: cover;
+}
+.tech-badge {
+    font-size: 0.8rem;
+}
+.card-overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0.5rem;
+    background: rgba(0, 0, 0, 0.5);
+    border-bottom-left-radius: 0.5rem;
+}
+.mainpageset{
+    min-height: 100vh;
+}
+.aboutkoset{
+    font-size: 31px;
+    color: white;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    margin-top: 100px;
+}
+.pharaset{
+    font-size: 18px;
+    line-height: 32px;
+    color: white;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+
+
+.imgsetinabout :hover{
+    width: 100%;
+    height: 300px;
+}
+.imgsetinabout{
+    margin-top: 20px;
+    border-radius: 10px;
+    width: 100%;
+    height: 270px;
+    object-fit: cover;
+}
+.inputkoset{
+    background-color: transparent;
+    color: aliceblue;
+}
