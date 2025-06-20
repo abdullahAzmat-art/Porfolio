@@ -12,7 +12,9 @@ const Projects = () => {
   return (
     <div>
       <section className='mt-5'>
-<h1 className='projectheader mb-5'>Projects</h1>
+{/* <h1 className='projectheader mb-5'>Projects</h1> */}
+<h1 className='projectheader mt-5' data-aos="fade-up">Projects</h1>
+<div className='lineatprohead' data-aos="fade-up"></div>
 
 <div className='container'>
     <div className='row'>
@@ -20,7 +22,7 @@ const Projects = () => {
     products.map((ele)=>{
         return(
             <>
-                   <div className='col-lg-4 col-md-6 col-12 col-sm-12 mt-4' data-aos="fade-up" >
+                   <div className='col-lg-4 col-md-6 col-12 col-sm-12 mt-5' data-aos="fade-up" >
 <div className=" project-card shadow-sm">
   <div className="position-relative">
     <img src={ele.images} className="card-img-top project-image" alt="Project 1" />

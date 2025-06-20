@@ -9,7 +9,7 @@ const Contact = () => {
       </p>
       <div className="row justify-content-center">
         <div className="col-md-8">
-          <form>
+          <form action="https://formsubmit.co/hassanazmat079@gmail.com" method="POST">
             <div className="mb-3">
               <label htmlFor="name" className="form-label">
                 Name

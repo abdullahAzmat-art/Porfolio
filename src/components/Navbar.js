@@ -6,7 +6,7 @@ const Navbar = () => {
     <div>
      <nav className="navbar container navbar-expand-lg  addthecolro">
   <div className="container">
-    <a className="navbar-brand navrlogo" href="/">Porfolio</a>
+    <a className="navbar-brand navrlogo" href="/"> Abdullah Azmat</a>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <i class="fa-solid fa-bars ionskoset"></i>
     </button>

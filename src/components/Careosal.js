@@ -15,17 +15,21 @@ const Careosal = () => {
 
   return (
  <div>
-       <div className='caresalokoset'>
+       <div className='caresalokoset mt-5'>
         <div className='m-auto  container innerconta'>
-      <h1 className=' careosethead'  data-aos="fade-right">Abdullah Azmat</h1>
-      <p className='pharaset'>I am a <b><i class="fa-solid fa-m"></i>ERN</b> Stack Developer with <b><i class="fa-solid fa-n"></i>EXT. JS</b></p>
+      <h1 className=' careosethead'  data-aos="fade-right"><span>Hi, I'm </span>Abdullah Azmat</h1>
+      {/* <p className='pharaset'>I am a <b>MERN</b> Stack Developer with <b><i class="fa-solid fa-n"></i>EXT. JS</b></p> */}
+        <p class="hero-subtitle">
+      I build modern and responsive websites for <b>businesses</b> and <b>startups</b>.
+      Let’s create something awesome together.
+    </p>
     </div>
 
     </div>
 
     <section>
-<h1 className='projectheader'>Projects</h1>
-
+<h1 className='projectheader' data-aos="fade-up">Projects</h1>
+<div className='lineatprohead' data-aos="fade-up"></div>
 <div className='container'>
     <div className='row'>
  {
